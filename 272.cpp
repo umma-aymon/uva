@@ -3,13 +3,11 @@ using namespace std;
 int main()
 {
     string s;
-    int c,i;
-    c=0;
+    int c=0,i;
     while(getline(cin,s))
     {
         int len=s.length();
         char ch= {'"'};
-
         for(i=0; i<len; i++)
         {
             if(s[i]==ch)
